@@ -1,0 +1,8 @@
+{
+  "name": "ig-css-addons",
+  "repo": "ikeagold/ig-css-addons",
+  "version": "0.1.0",
+  "styles": ["ig-css-addons.css"],
+  "author": "Arthur Parkhisenko",
+  "license": "MIT"
+}

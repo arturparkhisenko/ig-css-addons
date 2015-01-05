@@ -1,0 +1,39 @@
+{
+  "name": "ig-css-addons",
+  "version": "0.1.0",
+  "description": "ig-css-addons as a node packaged module",
+  "style": "ig-css-addons.css",
+  "files": [
+    "ig-css-addons.css"
+  ],
+  "homepage": "https://github.com/ikeagold/ig-css-addons",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ikeagold/ig-css-addons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ikeagold/ig-css-addons/issues"
+  },
+  "author": "Arthur Parkhisenko <ikeagold@gmail.com> (https://ikeagold.github.io/)",
+  "license": "MIT",
+  "keywords": [
+    "asset",
+    "css",
+    "addon",
+    "sass",
+    "scss",
+    "gulp",
+    "normalize",
+    "reset"
+  ],
+  "tags": [
+    "asset",
+    "css",
+    "addon",
+    "sass",
+    "scss",
+    "gulp",
+    "normalize",
+    "reset"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ig-css-addons",
+  "version": "0.1.0",
+  "main": "ig-css-addons.css",
+  "author": "Arthur Parkhisenko",
+  "ignore": [
+    "component.json",
+    ".gitattributes",
+    "package.json"
+  ]
+}
