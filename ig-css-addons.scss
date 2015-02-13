@@ -1,44 +1,4 @@
 /* ! ig-css-addons| MIT License | ikeagold.github.io */
-
-/* normalized print */
-@media print {
-  body {
-    background: transparent !important;
-    text-shadow: none !important;
-  }
-  a, a:visited {
-    color: #444 !important;
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: ' (' attr(href) ')';
-  }
-  abbr[title]:after {
-    content: ' (' attr(title) ')';
-  }
-  a:after {
-    content: '';
-  }
-  pre, blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  thead {
-    display: table-header-group;
-  }
-  tr, img {
-    page-break-inside: avoid;
-  }
-  p {
-    orphans: 3;
-    widows: 3;
-  }
-  h2, h3 {
-    orphans: 3;
-    widows: 3;
-    page-break-after: avoid;
-  }
-}
 /* fontstack with fallback */
 
 body {
@@ -46,42 +6,30 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-/* removing ie10-11 click delay */
 
-html {
-  -ms-touch-action: manipulation;
-}
-/* removing click delay and active state, use on mobile app only */
-/*html {
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}*/
 /* floats */
 
 .float-left {
   float: left;
 }
+
 .float-right {
   float: right;
 }
+
 .float-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 /* clearfix */
 
 .cf:before, .cf:after {
   content: '';
   display: table;
 }
+
 .cf:after {
   clear: both;
 }
@@ -100,6 +48,7 @@ input[type="search"] {
   -webkit-appearance: none;
   box-sizing: content-box;
 }
+
 /* https://github.com/necolas/normalize.css/pull/379 */
 
 [role="button"] {
