@@ -1,6 +1,6 @@
 /* ! ig-css-addons| MIT License | ikeagold.github.io */
-/* fontstack with fallback */
 
+/* fontstack with fallback */
 body {
   font-family: 'Noto Sans', 'Helvetica Neue', 'Roboto', 'Droid Sans', 'Segoe UI', 'Fira Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,7 +8,6 @@ body {
 }
 
 /* floats */
-
 .float-left {
   float: left;
 }
@@ -24,7 +23,6 @@ body {
 }
 
 /* clearfix */
-
 .cf:before, .cf:after {
   content: '';
   display: table;
@@ -42,15 +40,22 @@ p {
   hyphens: auto;
 }
 
-/* https://github.com/necolas/normalize.css/pull/356 */
+/* no select */
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+/* https://github.com/necolas/normalize.css/pull/356 */
 input[type="search"] {
   -webkit-appearance: none;
   box-sizing: content-box;
 }
 
 /* https://github.com/necolas/normalize.css/pull/379 */
-
 [role="button"] {
   cursor: pointer;
 }
