@@ -1,4 +1,4 @@
-# ig-css-addons !(in deep development now)
+# ig-css-addons
 Some selected css AddOns
 Include after [normalize.css](https://github.com/necolas/normalize.css) or [css-reset modified](https://github.com/ikeagold/css-reset)
 
@@ -6,8 +6,8 @@ Include after [normalize.css](https://github.com/necolas/normalize.css) or [css-
 * Mini-crossbrowser clearfix (usage: class="cf")
 * Font-stack starts with 'Noto Sans', have fallback, font-smoothing, text-rendering
 * Default classes for floating elements (left, right, center)
-* https://github.com/necolas/normalize.css/pull/356
-* https://github.com/necolas/normalize.css/pull/379
+* Some features disabled by default, to prevent unexpected results after install
+* & many other features, they documented, and you can find inside scss file
 
 ###Installing
 * Install with [Bower](http://bower.io): `$ bower install ig-css-addons`
