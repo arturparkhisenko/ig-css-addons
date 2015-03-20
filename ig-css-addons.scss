@@ -162,3 +162,43 @@ button,
   -moz-appearance: none;
   appearance: none;
 }*/
+
+/* normalized print */
+/*@media print {
+  body {
+    background: transparent !important;
+    text-shadow: none !important;
+  }
+  a, a:visited {
+    color: #444 !important;
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: ' (' attr(href) ')';
+  }
+  abbr[title]:after {
+    content: ' (' attr(title) ')';
+  }
+  a:after {
+    content: '';
+  }
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr, img {
+    page-break-inside: avoid;
+  }
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3 {
+    orphans: 3;
+    widows: 3;
+    page-break-after: avoid;
+  }
+}*/
