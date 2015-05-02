@@ -131,6 +131,9 @@ button,
 /** {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+
+  will-change: transform;
 }*/
 
 /* @default_disabled deal with ul's */

@@ -7,7 +7,7 @@ Include after [normalize.css](https://github.com/necolas/normalize.css) or [css-
 * Font-stack starts with 'Noto Sans', have fallback, font-smoothing, text-rendering
 * Default classes for floating elements (left, right, center)
 * Some features disabled by default, to prevent unexpected results after install
-* & many other features, they documented, and you can find inside scss file
+* & many other features
 
 ###Installing
 * Install with [Bower](http://bower.io): `$ bower install ig-css-addons`
