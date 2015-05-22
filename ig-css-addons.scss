@@ -9,7 +9,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* floats */
+/* utility */
 .float-left {
   float: left;
 }
@@ -23,6 +23,34 @@ body {
 
   margin-right: auto;
   margin-left: auto;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.table-center {
+  margin: auto;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
 }
 
 /* clearfix */
