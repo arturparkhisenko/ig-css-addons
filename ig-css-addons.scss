@@ -21,8 +21,8 @@ body {
 .float-center {
   display: block;
 
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .align-left {
@@ -56,9 +56,8 @@ body {
 /* clearfix */
 .cf:before,
 .cf:after {
-  display: table;
-
   content: '';
+  display: table;
 }
 
 .cf:after {
