@@ -146,6 +146,11 @@ button,
   cursor: pointer;
 }
 
+/* IE 10 support for HTML5 hidden attr */
+[hidden] {
+  display: none !important;
+}
+
 /* @default_disabled box fix */
 /**,
 *:before,
