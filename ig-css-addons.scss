@@ -11,8 +11,11 @@ html {
 
 body {
   /* font rendering */
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+
+  /*-webkit-font-smoothing: antialiased;*/
+
+  /*text-rendering: optimizeLegibility;
+  text-rendering: optimizeSpeed;*/
 }
 
 /* utility */
