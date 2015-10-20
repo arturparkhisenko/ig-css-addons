@@ -4,7 +4,7 @@ Include after [normalize.css](https://github.com/necolas/normalize.css) or [css-
 
 ## What does it do?
 * Mini-crossbrowser clearfix (usage: class="cf")
-* Font-stack starts with San Francisco and 'Noto Sans', have fallback, font-smoothing, text-rendering
+* Font-stack starts with system, -apple-system, San Francisco and 'Noto Sans', have fallback, font-smoothing, text-rendering
 * Default classes for floating elements (left, right, center)
 * Some features disabled by default, to prevent unexpected results after install
 * & many other features
