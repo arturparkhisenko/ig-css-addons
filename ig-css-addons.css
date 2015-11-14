@@ -2,7 +2,7 @@
 
 html {
   /* fontstack with fallback */
-  font-family: -apple-system, BlinkMacSystemFont '.SFNSDisplay-Regular', '.SFNSText-Regular', 'SF UI Text', 'San Francisco', 'Noto Sans', 'Helvetica Neue', 'Roboto', 'Droid Sans', 'Oxygen', 'Lucida Grande', 'Segoe UI', 'Fira Sans', Ubuntu, Cantarell, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, '.SFNSDisplay-Regular', '.SFNSText-Regular', 'SF UI Text', 'San Francisco', 'Noto Sans', 'Helvetica Neue', 'Roboto', 'Droid Sans', 'Oxygen', 'Lucida Grande', 'Segoe UI', 'Fira Sans', Ubuntu, Cantarell, Helvetica, Arial, sans-serif;
   /*
   font-size: 100%; (1em ~= 16px ~= 14pt)
   font-size: 62.5%; (1em = 10px)
