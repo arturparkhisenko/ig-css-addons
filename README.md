@@ -11,7 +11,7 @@ Include after [normalize.css](https://github.com/necolas/normalize.css) or [css-
 
 ### Installing
 
-- npm: `npm i -D `
+- [npm](https://www.npmjs.com/): `npm i -D ikeagold/ig-css-addons`
 - [bower](http://bower.io): `bower i -S ikeagold/ig-css-addons`
 
 ### [MIT License](LICENSE.md)
