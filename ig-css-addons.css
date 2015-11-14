@@ -1,98 +1,68 @@
 /* ! ig-css-addons| MIT License | ikeagold.github.io */
-/* Combed by http://csscomb.com/online */
 
 html {
   /* fontstack with fallback */
-  font-family: system, -apple-system, '.SFNSDisplay-Regular', '.SFNSText-Regular', 'SF UI Text', 'Noto Sans', 'Helvetica Neue', 'Roboto', 'Droid Sans', 'Lucida Grande', 'Segoe UI', 'Fira Sans', Ubuntu, Cantarell, Helvetica, Arial, sans-serif;
-
-  /* 10px = 1em */
-  /* font-size: 62.5%; */
+  font-family: -apple-system, BlinkMacSystemFont '.SFNSDisplay-Regular', '.SFNSText-Regular', 'SF UI Text', 'San Francisco', 'Noto Sans', 'Helvetica Neue', 'Roboto', 'Droid Sans', 'Oxygen', 'Lucida Grande', 'Segoe UI', 'Fira Sans', Ubuntu, Cantarell, Helvetica, Arial, sans-serif;
+  /*
+  font-size: 100%; (1em ~= 16px ~= 14pt)
+  font-size: 62.5%; (1em = 10px)
+  */
 }
 
 body {
   /* font rendering */
-
   /*-webkit-font-smoothing: antialiased;*/
-
   /*text-rendering: optimizeLegibility;
   text-rendering: optimizeSpeed;*/
 }
 
-/* utility */
-.float-left {
-  float: left;
-}
 
-.float-right {
-  float: right;
-}
+/* utility */
 
 .float-center {
   display: block;
-
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
-.align-left {
-  text-align: left;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.relative {
-  position: relative;
-}
-
-.table-center {
-  margin: auto;
-}
-
-.clickable {
-  cursor: pointer;
-}
-
-.hide {
-  display: none;
-}
 
 /* clearfix */
+
 .cf:before,
 .cf:after {
-  content: '';
   display: table;
+  content: '';
 }
 
 .cf:after {
   clear: both;
 }
 
+
 /* hyphens !require lang defined */
+
 p {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-
+  -epub-hyphens: auto;
   -ms-hyphens: auto;
 }
 
+
 /* no select */
+
 .noselect {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   -webkit-touch-callout: none;
 }
 
+
 /* dealing with long placeholders */
+
 input[placeholder] {
   text-overflow: ellipsis;
 }
@@ -109,7 +79,9 @@ input:-ms-input-placeholder {
   text-overflow: ellipsis;
 }
 
+
 /* pointer and noselect */
+
 label {
   cursor: pointer;
   -webkit-user-select: none;
@@ -118,24 +90,28 @@ label {
   user-select: none;
 }
 
+
 /* to escape some problems */
+
 textarea {
   resize: vertical;
 }
 
+
 /* this hack vs display: block; */
+
 img {
   vertical-align: middle;
 }
 
+
 /* adaptive video */
+
 .video {
   position: relative;
-
   overflow: hidden;
-
-  height: 0;
   padding-bottom: 56.25%;
+  height: 0;
 }
 
 .video iframe,
@@ -144,31 +120,39 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
 }
 
+
 /* buttons pointer */
+
 button,
 [role='button'] {
   cursor: pointer;
 }
 
+
 /* IE 10 support for HTML5 hidden attr */
+
 [hidden] {
   display: none !important;
 }
 
-/* @default_disabled box fix */
-/**,
+
+/* box fix */
+
+*,
 *:before,
 *:after,
 .box-fix {
   box-sizing: border-box;
-}*/
+}
+
 
 /* @default_disabled transform hack, better to use: will-change: transform; */
+
+
 /** {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -177,27 +161,39 @@ button,
   will-change: transform;
 }*/
 
+
 /* @default_disabled deal with ul's */
+
+
 /*ul {
   padding-left: 0;
 
   list-style: none;
 }*/
 
+
 /* @default_disabled adaptive imgs */
+
+
 /*img {
   width: auto \9;
   max-width: 100%;
   height: auto;
 }*/
 
+
 /* @default_disabled parallax img */
+
+
 /*.parallax {
   background: no-repeat fixed center center;
   background-size: cover;
 }*/
 
+
 /* https://github.com/necolas/normalize.css/pull/356 */
+
+
 /*input[type='search'] {
   box-sizing: content-box;
 
@@ -206,13 +202,16 @@ button,
   appearance: none;
 }*/
 
+
 /* normalized print */
-/*@media print {
+
+@media print {
   body {
     background: transparent !important;
     text-shadow: none !important;
   }
-  a, a:visited {
+  a,
+  a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
@@ -225,23 +224,26 @@ button,
   a:after {
     content: '';
   }
-  pre, blockquote {
+  pre,
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
   thead {
     display: table-header-group;
   }
-  tr, img {
+  tr,
+  img {
     page-break-inside: avoid;
   }
   p {
     orphans: 3;
     widows: 3;
   }
-  h2, h3 {
+  h2,
+  h3 {
+    page-break-after: avoid;
     orphans: 3;
     widows: 3;
-    page-break-after: avoid;
   }
-}*/
+}

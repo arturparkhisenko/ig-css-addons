@@ -1,6 +1,6 @@
 {
   "name": "ig-css-addons",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ig-css-addons as a node packaged module",
   "style": "ig-css-addons.css",
   "files": [
@@ -14,14 +14,12 @@
   "bugs": {
     "url": "https://github.com/ikeagold/ig-css-addons/issues"
   },
-  "author": "Arthur Parkhisenko <ikeagold@gmail.com> (https://ikeagold.github.io/)",
+  "author": "Artur Parkhisenko <ikeagold@gmail.com> (https://ikeagold.github.io/)",
   "license": "MIT",
   "keywords": [
     "asset",
     "css",
     "addon",
-    "sass",
-    "scss",
     "gulp",
     "normalize",
     "reset"
@@ -30,10 +28,16 @@
     "asset",
     "css",
     "addon",
-    "sass",
-    "scss",
     "gulp",
     "normalize",
     "reset"
-  ]
+  ],
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-preset-es2015": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0"
+  }
 }
