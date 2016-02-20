@@ -1,4 +1,4 @@
-/* ! ig-css-addons| MIT License | ikeagold.github.io */
+/* ! ig-css-addons| MIT License | arturparkhisenko.github.io */
 
 html {
   /* fontstack with fallback */
@@ -28,13 +28,9 @@ body {
 
 /* clearfix */
 
-.cf:before,
 .cf:after {
-  display: table;
-  content: '';
-}
-
-.cf:after {
+  content: "";
+  display: block;
   clear: both;
 }
 
