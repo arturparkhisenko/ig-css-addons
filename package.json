@@ -37,6 +37,15 @@
       "es2015"
     ]
   },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "at-rule-empty-line-before": "never",
+      "comment-empty-line-before": "never",
+      "comment-whitespace-inside": "never",
+      "indentation": 2
+    }
+  },
   "devDependencies": {
     "autoprefixer": "^6.3.3",
     "babel-core": "^6.5.2",

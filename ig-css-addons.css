@@ -1,8 +1,8 @@
 /* ! ig-css-addons| MIT License | arturparkhisenko.github.io */
 
 html {
-  /* fontstack with fallback */
-  font-family: -apple-system, BlinkMacSystemFont, '.SFNSDisplay-Regular', '.SFNSText-Regular', 'SF UI Text', 'San Francisco', 'Noto Sans', 'Helvetica Neue', 'Roboto', 'Droid Sans', 'Oxygen', 'Lucida Grande', 'Segoe UI', 'Fira Sans', Ubuntu, Cantarell, Helvetica, Arial, sans-serif;
+  /*fontstack with fallback*/
+  font-family: -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", ".SFNSText-Regular", "SF UI Text", "San Francisco", "Noto Sans", "Helvetica Neue", "Roboto", "Droid Sans", "Oxygen", "Lucida Grande", "Segoe UI", "Fira Sans", Ubuntu, Cantarell, Helvetica, Arial, sans-serif;
   /*
   font-size: 100%; (1em ~= 16px ~= 14pt)
   font-size: 62.5%; (1em = 10px)
@@ -10,14 +10,14 @@ html {
 }
 
 body {
-  /* font rendering */
+  /*font rendering*/
   /*-webkit-font-smoothing: antialiased;*/
   /*text-rendering: optimizeLegibility;
   text-rendering: optimizeSpeed;*/
 }
 
 
-/* utility */
+/*utility*/
 
 .float-center {
   display: block;
@@ -26,16 +26,16 @@ body {
 }
 
 
-/* clearfix */
+/*clearfix*/
 
-.cf:after {
+.cf::after {
   content: "";
   display: block;
   clear: both;
 }
 
 
-/* hyphens !require lang defined */
+/*hyphens !require lang defined*/
 
 p {
   -webkit-hyphens: auto;
@@ -46,7 +46,7 @@ p {
 }
 
 
-/* no select */
+/*no select*/
 
 .noselect {
   -webkit-user-select: none;
@@ -57,7 +57,7 @@ p {
 }
 
 
-/* dealing with long placeholders */
+/*dealing with long placeholders*/
 
 input[placeholder] {
   text-overflow: ellipsis;
@@ -76,7 +76,7 @@ input:-ms-input-placeholder {
 }
 
 
-/* pointer and noselect */
+/*pointer and noselect*/
 
 label {
   cursor: pointer;
@@ -87,21 +87,21 @@ label {
 }
 
 
-/* to escape some problems */
+/*to escape some problems*/
 
 textarea {
   resize: vertical;
 }
 
 
-/* this hack vs display: block; */
+/*this hack vs display: block;*/
 
 img {
   vertical-align: middle;
 }
 
 
-/* adaptive video */
+/*adaptive video*/
 
 .video {
   position: relative;
@@ -121,32 +121,32 @@ img {
 }
 
 
-/* buttons pointer */
+/*buttons pointer*/
 
 button,
-[role='button'] {
+[role="button"] {
   cursor: pointer;
 }
 
 
-/* IE 10 support for HTML5 hidden attr */
+/*IE 10 support for HTML5 hidden attr*/
 
 [hidden] {
   display: none !important;
 }
 
 
-/* box fix */
+/*box fix*/
 
 *,
-*:before,
-*:after,
+*::before,
+*::after,
 .box-fix {
   box-sizing: border-box;
 }
 
 
-/* @default_disabled transform hack, better to use: will-change: transform; */
+/*@default_disabled transform hack, better to use: will-change: transform;*/
 
 
 /** {
@@ -158,7 +158,7 @@ button,
 }*/
 
 
-/* @default_disabled deal with ul's */
+/*@default_disabled deal with ul's*/
 
 
 /*ul {
@@ -168,7 +168,7 @@ button,
 }*/
 
 
-/* @default_disabled adaptive imgs */
+/*@default_disabled adaptive imgs*/
 
 
 /*img {
@@ -178,7 +178,7 @@ button,
 }*/
 
 
-/* @default_disabled parallax img */
+/*@default_disabled parallax img*/
 
 
 /*.parallax {
@@ -187,7 +187,7 @@ button,
 }*/
 
 
-/* https://github.com/necolas/normalize.css/pull/356 */
+/*https://github.com/necolas/normalize.css/pull/356*/
 
 
 /*input[type='search'] {
@@ -199,7 +199,7 @@ button,
 }*/
 
 
-/* normalized print */
+/*normalized print*/
 
 @media print {
   body {
@@ -211,14 +211,14 @@ button,
     color: #444 !important;
     text-decoration: underline;
   }
-  a[href]:after {
-    content: ' (' attr(href) ')';
+  a[href]::after {
+    content: " (" attr(href) ")";
   }
-  abbr[title]:after {
-    content: ' (' attr(title) ')';
+  abbr[title]::after {
+    content: " (" attr(title) ")";
   }
-  a:after {
-    content: '';
+  a::after {
+    content: "";
   }
   pre,
   blockquote {
