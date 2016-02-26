@@ -1,4 +1,4 @@
-# ig-css-addons
+# ig-css-addons [![devDependency Status](https://david-dm.org/arturparkhisenko/ig-css-addons/dev-status.svg)](https://david-dm.org/arturparkhisenko/ig-css-addons#info=devDependencies)
 Some css AddOns you can use it with [normalize.css](https://github.com/necolas/normalize.css) or [css-reset modified](https://github.com/arturparkhisenko/css-reset)
 
 ## What does it do?
