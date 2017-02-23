@@ -1,5 +1,5 @@
 # ig-css-addons [![devDependency Status](https://david-dm.org/arturparkhisenko/ig-css-addons/dev-status.svg)](https://david-dm.org/arturparkhisenko/ig-css-addons#info=devDependencies)
-Some css AddOns you can use it with [normalize.css](https://github.com/necolas/normalize.css) or [css-reset modified](https://github.com/arturparkhisenko/css-reset)
+Some css AddOns you can use it with [normalize.css](https://github.com/necolas/normalize.css).
 
 ## What does it do?
 - Mini-crossbrowser clearfix (usage: `class="cf"`)
