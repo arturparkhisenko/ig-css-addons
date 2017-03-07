@@ -1,64 +1,39 @@
-/* ! ig-css-addons| MIT License | arturparkhisenko.github.io */
-
+/*! ig-css-addons| MIT License | arturparkhisenko.github.io */
 html {
   /*fontstack with fallback*/
   font-family: -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", ".SFNSText-Regular", "SF UI Text", "San Francisco", "Noto Sans", "Helvetica Neue", "Roboto", "Droid Sans", "Oxygen", "Lucida Grande", "Segoe UI", "Fira Sans", Ubuntu, Cantarell, Helvetica, Arial, sans-serif;
-  /*
-  font-size: 100%; (1em ~= 16px ~= 14pt)
-  font-size: 62.5%; (1em = 10px)
-  */
+  /*font-size: 100%; (1em ~= 16px ~= 14pt)
+  font-size: 62.5%; (1em = 10px)*/
 }
 
 body {
   /*font rendering*/
-  /*-webkit-font-smoothing: antialiased;*/
-  /*text-rendering: optimizeLegibility;
-  text-rendering: optimizeSpeed;*/
+  text-rendering: optimizeLegibility;
+  /*text-rendering: optimizeSpeed;*/
 }
-
-
-/*utility*/
-
-.float-center {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
 /*clearfix*/
-
 .cf::after {
   content: "";
   display: block;
   clear: both;
 }
-
-
 /*hyphens !require lang defined*/
-
 p {
   -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
   -epub-hyphens: auto;
+  -moz-hyphens: auto;
   -ms-hyphens: auto;
+  hyphens: auto;
 }
-
-
 /*no select*/
-
 .noselect {
+  -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-touch-callout: none;
 }
-
-
 /*dealing with long placeholders*/
-
 input[placeholder] {
   text-overflow: ellipsis;
 }
@@ -74,168 +49,95 @@ input:-moz-placeholder {
 input:-ms-input-placeholder {
   text-overflow: ellipsis;
 }
-
-
-/*pointer and noselect*/
-
-label {
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-
 /*to escape some problems*/
-
 textarea {
   resize: vertical;
 }
-
-
 /*this hack vs display: block;*/
-
 img {
   vertical-align: middle;
 }
 
-
-/*adaptive video*/
-
-.video {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-
-.video iframe,
-.video object,
-.video embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
 /*buttons pointer*/
-
-button,
-[role="button"] {
+[role="button"],
+button {
   cursor: pointer;
 }
-
-
 /*IE 10 support for HTML5 hidden attr*/
-
 [hidden] {
   display: none !important;
 }
-
-
 /*box fix*/
-
 *,
-*::before,
 *::after,
+*::before,
 .box-fix {
   box-sizing: border-box;
 }
-
-
 /*@default_disabled transform hack, better to use: will-change: transform;*/
-
-
-/** {
+/*selector {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   transform: translateZ(0);
 
   will-change: transform;
 }*/
-
-
 /*@default_disabled deal with ul's*/
-
-
 /*ul {
   padding-left: 0;
 
   list-style: none;
 }*/
-
-
-/*@default_disabled adaptive imgs*/
-
-
-/*img {
-  width: auto \9;
-  max-width: 100%;
-  height: auto;
-}*/
-
-
 /*@default_disabled parallax img*/
-
-
 /*.parallax {
   background: no-repeat fixed center center;
   background-size: cover;
 }*/
-
-
-/*https://github.com/necolas/normalize.css/pull/356*/
-
-
-/*input[type='search'] {
-  box-sizing: content-box;
-
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}*/
-
-
 /*normalized print*/
-
 @media print {
   body {
     background: transparent !important;
     text-shadow: none !important;
   }
+
   a,
   a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
+
   a[href]::after {
     content: " (" attr(href) ")";
   }
+
   abbr[title]::after {
     content: " (" attr(title) ")";
   }
+
   a::after {
     content: "";
   }
-  pre,
-  blockquote {
+
+  blockquote,
+  pre {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+
   thead {
     display: table-header-group;
   }
-  tr,
-  img {
+
+  img,
+  tr {
     page-break-inside: avoid;
   }
+
   p {
     orphans: 3;
     widows: 3;
   }
+
   h2,
   h3 {
     page-break-after: avoid;

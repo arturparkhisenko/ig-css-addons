@@ -1,11 +1,12 @@
 'use strict';
 
-import gulp from 'gulp';
-import postcss from 'gulp-postcss';
-import autoprefixer from 'autoprefixer';
-import rename from 'gulp-rename';
-import cssnano from 'cssnano';
-import sourcemaps from 'gulp-sourcemaps';
+// import gulp from 'gulp';
+const gulp = require('gulp');
+const postcss = require('gulp-postcss');
+const rename = require('gulp-rename');
+const sourcemaps = require('gulp-sourcemaps');
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
 
 gulp.task('default', () =>
   gulp.src('ig-css-addons.css')

@@ -1,7 +1,7 @@
 {
   "name": "ig-css-addons",
   "repo": "arturparkhisenko/ig-css-addons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "styles": ["ig-css-addons.css"],
   "author": "Artur Parkhisenko",
   "license": "MIT"
