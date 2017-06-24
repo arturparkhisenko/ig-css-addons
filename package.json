@@ -1,6 +1,6 @@
 {
   "name": "ig-css-addons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ig-css-addons as a node packaged module",
   "style": "ig-css-addons.css",
   "files": [
@@ -41,12 +41,12 @@
     }
   },
   "devDependencies": {
-    "autoprefixer": "^6.7.6",
+    "autoprefixer": "^7.1.1",
     "cssnano-cli": "^1.0.5",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^6.3.0",
+    "gulp-postcss": "^7.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^2.4.1"
+    "gulp-sourcemaps": "^2.6.0"
   },
   "dependencies": {
     "stylelint-config-standard": "^16.0.0"

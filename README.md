@@ -17,7 +17,7 @@ Some css AddOns you can use it with [normalize.css](https://github.com/necolas/n
 
 ### Installing
 
-- [npm](https://www.npmjs.com/): `npm i -S arturparkhisenko/ig-css-addons`
-- [bower](http://bower.io): `bower i -S arturparkhisenko/ig-css-addons`
+- [npm](https://www.npmjs.com/): `npm i arturparkhisenko/ig-css-addons`
+- [bower](https://bower.io/): `bower i -S arturparkhisenko/ig-css-addons`
 
 ### [MIT License](LICENSE.md)
