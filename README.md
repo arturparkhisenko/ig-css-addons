@@ -2,7 +2,7 @@
 
 Some css AddOns you can use it with [normalize.css](https://github.com/necolas/normalize.css).
 
-## What does it do?
+## What it is
 
 - Mini-crossbrowser clearfix (usage: `class="cf"`)
 - Font-stack with `system, -apple-system, San Francisco, 'Noto Sans'`, have a fallback, text-rendering
@@ -18,6 +18,5 @@ Some css AddOns you can use it with [normalize.css](https://github.com/necolas/n
 ### Installing
 
 - [npm](https://www.npmjs.com/): `npm i arturparkhisenko/ig-css-addons`
-- [bower](https://bower.io/): `bower i -S arturparkhisenko/ig-css-addons`
 
 ### [MIT License](LICENSE.md)
