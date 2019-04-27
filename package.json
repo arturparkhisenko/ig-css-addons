@@ -1,6 +1,6 @@
 {
   "name": "ig-css-addons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ig-css-addons as a node packaged module",
   "style": "ig-css-addons.css",
   "files": [
