@@ -43,13 +43,13 @@
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "eslint": "^5.16.0",
-    "gulp": "^4.0.1",
+    "eslint": "^6.0.1",
+    "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sourcemaps": "^2.6.5",
-    "postcss-preset-env": "^6.6.0",
-    "stylelint": "^10.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0"
   }
 }
