@@ -2,7 +2,6 @@ const gulp = require('gulp');
 const postcss = require('gulp-postcss');
 const rename = require('gulp-rename');
 const sourcemaps = require('gulp-sourcemaps');
-
 const cssnano = require('cssnano');
 const postcssPresetEnv = require('postcss-preset-env');
 
