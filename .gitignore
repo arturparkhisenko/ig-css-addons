@@ -58,7 +58,7 @@ $RECYCLE.BIN/
 # Other #
 #########
 .idea
+.vscode
 .vagrant
 .dist
 .tmp
-src/bower_components
