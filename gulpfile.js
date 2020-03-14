@@ -12,8 +12,7 @@ const build = () =>
     .pipe(
       postcss([
         postcssPresetEnv({
-          stage: 3, // default is 3
-          browsers: ['last 2 versions']
+          stage: 0 // default is 3
         }),
         cssnano({
           safe: true

@@ -5,7 +5,7 @@ Some css AddOns you can use it with [normalize.css](https://github.com/necolas/n
 ## What it is
 
 - Mini-crossbrowser clearfix (usage: `class="cf"`)
-- Font-stack with `system, -apple-system, San Francisco, 'Noto Sans'`, have a fallback, text-rendering
+- Font-stack with `"San Francisco"`, have a fallback, text-rendering
 - `p` hyphens auto
 - `noselect` and `box-fix` classes
 - `box-sizing: border-box;` by default
