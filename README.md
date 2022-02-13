@@ -1,6 +1,6 @@
-# ig-css-addons [![devDependency Status](https://david-dm.org/arturparkhisenko/ig-css-addons/dev-status.svg)](https://david-dm.org/arturparkhisenko/ig-css-addons#info=devDependencies)
+# ig-css-addons
 
-Some css AddOns you can use it with [normalize.css](https://github.com/necolas/normalize.css).
+Some CSS AddOns, you can use it with [normalize.css](https://github.com/necolas/normalize.css).
 
 ## What it is
 
